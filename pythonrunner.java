@@ -45,7 +45,10 @@ public class pythonrunner {
 				}
 				retMap.put(pythonFile, printedVals);
 			} catch (IOException e) {
-				System.out.println(e.toString());
+				ArrayList<String> printedVals = new ArrayList<>();
+				printedVals.add(e.toString());
+				retMap.put(pythonFile, printedVals);
+
 			}
 		}
 		return retMap;
