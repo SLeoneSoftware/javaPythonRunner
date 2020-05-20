@@ -1,3 +1,10 @@
+/**
+ * Code for pythonrunner, a java program used to run python files and obtain output
+ * Primarily used to debug python files with JUnits
+ * @author Steven Leone
+ * @version 0 - debugging/development
+ */
+
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.io.IOException;
