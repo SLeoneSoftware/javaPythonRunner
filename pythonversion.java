@@ -1,7 +1,7 @@
 /**
- * Enum for different python execution commands
+ * Enum for different python execution commands. Sometimes python 2 is executed with 'python', while 3 is with 'python3'. This enum provides that option
  * @author Steven Leone
- * @version 0 - debugging/development
+ * @version 1
  */
 
 public enum pythonversion {
